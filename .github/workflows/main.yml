@@ -21,11 +21,11 @@ jobs:
       with:
         python-version: 3.x
 
-    - name: Navigate to project folder
-      run: cd poetry-demo
+    - name: Install Poetry
+      run: curl -sSL https://install.python-poetry.org | python -
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: poetry install
 
     - name: Run tests
-      run: pytest
+      run: poetry run pytest
