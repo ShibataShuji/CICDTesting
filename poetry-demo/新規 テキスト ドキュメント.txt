@@ -1,4 +1,4 @@
-C:/PythonProjects/poetry-demo
+C:/Users/shuji.shibata/source/repos/CICDTesting/poetry-demo
 
 
 cd C:/PythonProjects/poetry-demo
@@ -8,3 +8,7 @@ poetry shell
 pytest
 または
 poetry run pytest
+
+ファイルの場所を移動させたら
+poetry install
+で参照を追加しなければならない
