@@ -1,0 +1,5 @@
+C:\Users\shuji.shibata\source\repos\CICDTesting\.github\workflows
+
+C:/Users/shuji.shibata/source/repos/CICDTesting/.github/workflows
+
+../../poetry-demo
