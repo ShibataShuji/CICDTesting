@@ -1,0 +1,10 @@
+C:/PythonProjects/poetry-demo
+
+
+cd C:/PythonProjects/poetry-demo
+で移動して、
+poetry shell
+でアクティベートして
+pytest
+または
+poetry run pytest
